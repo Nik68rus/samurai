@@ -3,7 +3,7 @@ import s from './Header.module.css';
 
 const Header = () => {
   return <header className={s.header}>
-    <img src='https://www.seekpng.com/png/detail/177-1771840_logo-free-design-transparent-logo-design-png.png' alt='fff' />
+    <img src='https://i.pinimg.com/originals/0a/7b/01/0a7b01b93a6880e8560091c465cff2e9.jpg' alt='fff' />
   </header>
 }
 

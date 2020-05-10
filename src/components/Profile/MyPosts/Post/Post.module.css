@@ -1,0 +1,13 @@
+.item {
+  display: flex;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.item img {
+  width: 60px;
+}
+
+.item button {
+  cursor: pointer;
+}
