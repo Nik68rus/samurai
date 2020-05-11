@@ -1,0 +1,17 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+
+  &__list,
+  &__items {
+    padding: 20px;
+  }
+
+  &__toggle {
+    color: white;
+  }
+
+  &__toggle.active {
+    color: blue;
+  }
+}
