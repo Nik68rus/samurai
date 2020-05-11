@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 ul {
   list-style: none;
   padding: 0;
@@ -16,5 +18,11 @@ ul {
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   /* grid-gap: 10px; */
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: $bg-color;
+  color: $font-color;
 }
 

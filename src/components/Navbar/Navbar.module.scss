@@ -1,6 +1,12 @@
 .nav {
   grid-area: n;
   background-color: chartreuse;
+
+  a {
+    text-decoration: none;
+    font-weight: 500;
+    color: violet;
+  }
 }
 
 .item {
