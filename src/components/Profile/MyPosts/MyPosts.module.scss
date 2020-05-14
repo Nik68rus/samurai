@@ -3,3 +3,19 @@
   color: white;
 }
 
+.posts__wrapper {
+  padding: 10px;
+}
+
+.posts__form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+  button {
+    width: 150px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+}
+
